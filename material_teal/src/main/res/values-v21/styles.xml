@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Teal App Theme -->
+    <style name="AppTheme.Teal" parent="BaseTheme.Teal">
+        <!-- API specific attributes 21+ -->
+        <item name="selectableDrawableColor">@color/selector_teal_pressed</item>
+    </style>
+</resources>
