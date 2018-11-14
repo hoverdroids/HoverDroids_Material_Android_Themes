@@ -1,1 +1,1 @@
-include ':app', ':example', ':material_theme_red', ':material_theme_green', ':material_theme_orange', ':material_theme_lime', ':material_theme_teal', ':material_theme_blue', ':material_theme_purple', ':material_theme_template'
+include ':app', ':material_theme_red', ':material_theme_green', ':material_theme_orange', ':material_theme_lime', ':material_theme_teal', ':material_theme_blue', ':material_theme_purple', ':material_theme_template'
