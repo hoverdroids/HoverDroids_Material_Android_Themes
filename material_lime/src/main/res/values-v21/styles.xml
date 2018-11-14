@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Lime App Theme -->
-    <style name="AppTheme.Lime" parent="BaseTheme.Lime">
-        <!-- API specific attributes 21+ -->
-        <item name="selectableDrawableColor">@color/selector_lime_pressed</item>
-    </style>
-</resources>

@@ -34,17 +34,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation 'com.github.hoverdroids.HoverDroids_Android_Views_and_Widgets:dialogs:1.0.2'
-    //Only need the dialog utils for now
-    implementation 'com.github.hoverdroids.HoverDroids_Android_Utils:log_utils:1.0.1'
-    //Only need the logutils for now
-    implementation 'com.github.hoverdroids.HoverDroids_Android_Dummy_Data:common:0.0.3'
-    implementation 'com.github.hoverdroids.HoverDroids_Android_Drawables_and_Icons:hoverdroids_material:1.0.5'
-    implementation project(':material_blue')
-    implementation project(':material_green')
-    implementation project(':material_lime')
-    implementation project(':material_orange')
-    implementation project(':material_purple')
-    implementation project(':material_red')
-    implementation project(':material_teal')
 }

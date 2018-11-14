@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Blue App Theme -->
-    <style name="AppTheme.Blue" parent="BaseTheme.Blue">
-        <!-- API specific attributes 21+ -->
-        <item name="selectableDrawableColor">@color/selector_blue_pressed</item>
-    </style>
-</resources>

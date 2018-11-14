@@ -8,4 +8,4 @@
     android:layout_gravity="end|bottom"
     android:layout_margin="@dimen/floating_action_button_spacing"
     android:src="@mipmap/ic_palette"
-    tools:context="com.stevenbyle.android.materialthemes.controller.home.HomeActivity"/>
+    tools:context="com.hoverdroids.hoverdroids_android_themes_and_styles_example.HomeActivity"/>

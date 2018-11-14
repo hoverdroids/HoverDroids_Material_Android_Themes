@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Red App Theme -->
+    <style name="BaseTheme.Red" parent="AppTheme">
+        <!-- Attributes for all APIs -->
+        <item name="colorPrimary">@color/material_red_500</item>
+        <item name="colorPrimaryDark">@color/material_red_700</item>
+        <item name="colorAccent">@color/material_red_a700</item>
+        <item name="dialogTheme">@style/AppTheme.Dialog.Red</item>
+        <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert.Red</item>
+    </style>
+
+    <style name="AppTheme.Red" parent="BaseTheme.Red">
+        <!-- API specific attributes 14+ -->
+        <item name="selectableRectDrawableColored">@drawable/state_list_selectable_rect_red</item>
+        <item name="selectableRoundedRectDrawableColored">@drawable/state_list_selectable_rounded_rect_red</item>
+    </style>
+
+    <!-- Red Dialog Theme -->
+    <style name="AppTheme.Dialog.Red">
+        <item name="colorPrimary">@color/material_red_500</item>
+        <item name="colorPrimaryDark">@color/material_red_700</item>
+        <item name="colorAccent">@color/material_red_a700</item>
+    </style>
+
+    <!-- Red Alert Dialog Theme -->
+    <style name="AppTheme.Dialog.Alert.Red">
+        <item name="colorPrimary">@color/material_red_500</item>
+        <item name="colorPrimaryDark">@color/material_red_700</item>
+        <item name="colorAccent">@color/material_red_a700</item>
+    </style>
+
+</resources>
