@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Black App Theme -->
+    <style name="BaseTheme.Black" parent="AppTheme">
+        <!-- Attributes for all APIs -->
+        <item name="colorPrimary">@color/material_black</item>
+        <item name="colorPrimaryDark">@color/material_black_pct_70</item>
+        <item name="colorAccent">@color/material_black_pct_70</item>
+        <item name="dialogTheme">@style/AppTheme.Dialog.Black</item>
+        <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert.Black</item>
+    </style>
+
+    <style name="AppTheme.Black" parent="BaseTheme.Black">
+        <!-- API specific attributes 14+ -->
+        <item name="selectableRectDrawableColored">@drawable/state_list_selectable_rect_black</item>
+        <item name="selectableRoundedRectDrawableColored">@drawable/state_list_selectable_rounded_rect_black</item>
+    </style>
+
+    <!-- Black Dialog Theme -->
+    <style name="AppTheme.Dialog.Black">
+        <item name="colorPrimary">@color/material_black</item>
+        <item name="colorPrimaryDark">@color/material_black_pct_70</item>
+        <item name="colorAccent">@color/material_black_pct_70</item>
+    </style>
+
+    <!-- Black Alert Dialog Theme -->
+    <style name="AppTheme.Dialog.Alert.Black">
+        <item name="colorPrimary">@color/material_black</item>
+        <item name="colorPrimaryDark">@color/material_black_pct_70</item>
+        <item name="colorAccent">@color/material_black_pct_70</item>
+    </style>
+
+</resources>

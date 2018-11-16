@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Gray App Theme -->
+    <style name="BaseTheme.Gray" parent="AppTheme">
+        <!-- Attributes for all APIs -->
+        <item name="colorPrimary">@color/material_gray_500</item>
+        <item name="colorPrimaryDark">@color/material_gray_700</item>
+        <item name="colorAccent">@color/material_gray_700</item>
+        <item name="dialogTheme">@style/AppTheme.Dialog.Gray</item>
+        <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert.Gray</item>
+    </style>
+
+    <style name="AppTheme.Gray" parent="BaseTheme.Gray">
+        <!-- API specific attributes 14+ -->
+        <item name="selectableRectDrawableColored">@drawable/state_list_selectable_rect_gray</item>
+        <item name="selectableRoundedRectDrawableColored">@drawable/state_list_selectable_rounded_rect_gray</item>
+    </style>
+
+    <!-- Gray Dialog Theme -->
+    <style name="AppTheme.Dialog.Gray">
+        <item name="colorPrimary">@color/material_gray_500</item>
+        <item name="colorPrimaryDark">@color/material_gray_700</item>
+        <item name="colorAccent">@color/material_gray_700</item>
+    </style>
+
+    <!-- Gray Alert Dialog Theme -->
+    <style name="AppTheme.Dialog.Alert.Gray">
+        <item name="colorPrimary">@color/material_gray_500</item>
+        <item name="colorPrimaryDark">@color/material_gray_700</item>
+        <item name="colorAccent">@color/material_gray_700</item>
+    </style>
+
+</resources>

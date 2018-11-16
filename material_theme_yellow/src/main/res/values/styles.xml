@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Yellow App Theme -->
+    <style name="BaseTheme.Yellow" parent="AppTheme">
+        <!-- Attributes for all APIs -->
+        <item name="colorPrimary">@color/material_yellow_500</item>
+        <item name="colorPrimaryDark">@color/material_yellow_700</item>
+        <item name="colorAccent">@color/material_yellow_a700</item>
+        <item name="dialogTheme">@style/AppTheme.Dialog.Yellow</item>
+        <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert.Yellow</item>
+    </style>
+
+    <style name="AppTheme.Yellow" parent="BaseTheme.Yellow">
+        <!-- API specific attributes 14+ -->
+        <item name="selectableRectDrawableColored">@drawable/state_list_selectable_rect_yellow</item>
+        <item name="selectableRoundedRectDrawableColored">@drawable/state_list_selectable_rounded_rect_yellow</item>
+    </style>
+
+    <!-- Yellow Dialog Theme -->
+    <style name="AppTheme.Dialog.Yellow">
+        <item name="colorPrimary">@color/material_yellow_500</item>
+        <item name="colorPrimaryDark">@color/material_yellow_700</item>
+        <item name="colorAccent">@color/material_yellow_a700</item>
+    </style>
+
+    <!-- Yellow Alert Dialog Theme -->
+    <style name="AppTheme.Dialog.Alert.Yellow">
+        <item name="colorPrimary">@color/material_yellow_500</item>
+        <item name="colorPrimaryDark">@color/material_yellow_700</item>
+        <item name="colorAccent">@color/material_yellow_a700</item>
+    </style>
+
+</resources>

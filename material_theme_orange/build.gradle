@@ -30,6 +30,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation 'com.github.hoverdroids.HoverDroids_Android_Drawables_and_Icons:material_draw_orange:1.0.6'
+    implementation 'com.github.hoverdroids.HoverDroids_Android_Drawables_and_Icons:material_draw_orange:1.0.8'
     implementation project(':material_theme_template')
 }

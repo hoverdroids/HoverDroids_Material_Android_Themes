@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Amber App Theme -->
+    <style name="BaseTheme.Amber" parent="AppTheme">
+        <!-- Attributes for all APIs -->
+        <item name="colorPrimary">@color/material_amber_500</item>
+        <item name="colorPrimaryDark">@color/material_amber_700</item>
+        <item name="colorAccent">@color/material_amber_a700</item>
+        <item name="dialogTheme">@style/AppTheme.Dialog.Amber</item>
+        <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert.Amber</item>
+    </style>
+
+    <style name="AppTheme.Amber" parent="BaseTheme.Amber">
+        <!-- API specific attributes 14+ -->
+        <item name="selectableRectDrawableColored">@drawable/state_list_selectable_rect_amber</item>
+        <item name="selectableRoundedRectDrawableColored">@drawable/state_list_selectable_rounded_rect_amber</item>
+    </style>
+
+    <!-- Amber Dialog Theme -->
+    <style name="AppTheme.Dialog.Amber">
+        <item name="colorPrimary">@color/material_amber_500</item>
+        <item name="colorPrimaryDark">@color/material_amber_700</item>
+        <item name="colorAccent">@color/material_amber_a700</item>
+    </style>
+
+    <!-- Amber Alert Dialog Theme -->
+    <style name="AppTheme.Dialog.Alert.Amber">
+        <item name="colorPrimary">@color/material_amber_500</item>
+        <item name="colorPrimaryDark">@color/material_amber_700</item>
+        <item name="colorAccent">@color/material_amber_a700</item>
+    </style>
+
+</resources>

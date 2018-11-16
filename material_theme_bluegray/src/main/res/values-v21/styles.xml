@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- BlueGray App Theme -->
+    <!-- API specific attributes 21+ -->
+    <style name="AppTheme.BlueGray" parent="BaseTheme.BlueGray">
+        <item name="selectableDrawableColor">@color/selector_bluegray_pressed</item>
+
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarStyle.BlueGray.Horizontal</item>
+        <item name="android:progressBarStyle">@style/ProgressBarStyle.BlueGray</item>
+        <item name="android:indeterminateProgressStyle">@style/ProgressBarStyle.BlueGray</item>
+        <item name="android:seekBarStyle">@style/SeekbarStyle.BlueGray</item>
+        <item name="seekBarStyle">@style/SeekbarStyle.BlueGray</item>
+    </style>
+
+    <!-- Progress Bar Styles -->
+    <style name="ProgressBarStyle.BlueGray" parent="Widget.AppCompat.ProgressBar">
+
+        <item name="android:progressTint">@color/material_bluegray_700</item>
+        <item name="android:progressBackgroundTint">@color/material_bluegray_pct_60</item>
+
+        <item name="android:secondaryProgressTint">@color/material_bluegray_pct_60</item>
+        <item name="android:secondaryProgressTintMode">src_in</item>
+
+        <item name="android:indeterminateTintMode">src_in</item>
+        <item name="android:indeterminateTint">@color/material_bluegray_700</item>
+
+    </style>
+
+    <style name="ProgressBarStyle.BlueGray.Horizontal" parent="Widget.AppCompat.ProgressBar.Horizontal">
+
+        <item name="android:progressTint">@color/material_bluegray_700</item>
+        <item name="android:progressBackgroundTint">@color/material_bluegray_pct_60</item>
+
+        <item name="android:secondaryProgressTint">@color/material_bluegray_pct_60</item>
+        <item name="android:secondaryProgressTintMode">src_in</item>
+
+        <item name="android:indeterminateTintMode">src_in</item>
+        <item name="android:indeterminateTint">@color/material_bluegray_700</item>
+    </style>
+
+    <!-- Slider Styles -->
+    <style name="SeekbarStyle.BlueGray" parent="Widget.AppCompat.SeekBar">
+        <!--Uncomment the following line if you want to colorize the right side of the seekbar-->
+        <!--<item name="android:progressBackgroundTint">@color/material_blue_gray_700_pct_30</item>-->
+        <item name="android:thumbTint">@color/material_bluegray_700</item>
+        <item name="android:thumbTintMode">src_in</item>
+        <item name="android:progressTint">@color/material_bluegray_700</item>
+    </style>
+
+</resources>

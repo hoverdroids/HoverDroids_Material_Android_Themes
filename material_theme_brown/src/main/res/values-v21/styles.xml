@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Brown App Theme -->
+    <!-- API specific attributes 21+ -->
+    <style name="AppTheme.Brown" parent="BaseTheme.Brown">
+        <item name="selectableDrawableColor">@color/selector_brown_pressed</item>
+
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarStyle.Brown.Horizontal</item>
+        <item name="android:progressBarStyle">@style/ProgressBarStyle.Brown</item>
+        <item name="android:indeterminateProgressStyle">@style/ProgressBarStyle.Brown</item>
+        <item name="android:seekBarStyle">@style/SeekbarStyle.Brown</item>
+        <item name="seekBarStyle">@style/SeekbarStyle.Brown</item>
+    </style>
+
+    <!-- Progress Bar Styles -->
+    <style name="ProgressBarStyle.Brown" parent="Widget.AppCompat.ProgressBar">
+
+        <item name="android:progressTint">@color/material_brown_700</item>
+        <item name="android:progressBackgroundTint">@color/material_brown_pct_60</item>
+
+        <item name="android:secondaryProgressTint">@color/material_brown_pct_60</item>
+        <item name="android:secondaryProgressTintMode">src_in</item>
+
+        <item name="android:indeterminateTintMode">src_in</item>
+        <item name="android:indeterminateTint">@color/material_brown_700</item>
+
+    </style>
+
+    <style name="ProgressBarStyle.Brown.Horizontal" parent="Widget.AppCompat.ProgressBar.Horizontal">
+
+        <item name="android:progressTint">@color/material_brown_700</item>
+        <item name="android:progressBackgroundTint">@color/material_brown_pct_60</item>
+
+        <item name="android:secondaryProgressTint">@color/material_brown_pct_60</item>
+        <item name="android:secondaryProgressTintMode">src_in</item>
+
+        <item name="android:indeterminateTintMode">src_in</item>
+        <item name="android:indeterminateTint">@color/material_brown_700</item>
+    </style>
+
+    <!-- Slider Styles -->
+    <style name="SeekbarStyle.Brown" parent="Widget.AppCompat.SeekBar">
+        <!--Uncomment the following line if you want to colorize the right side of the seekbar-->
+        <!--<item name="android:progressBackgroundTint">@color/material_brown_a700_pct_30</item>-->
+        <item name="android:thumbTint">@color/material_brown_700</item>
+        <item name="android:thumbTintMode">src_in</item>
+        <item name="android:progressTint">@color/material_brown_700</item>
+    </style>
+
+</resources>

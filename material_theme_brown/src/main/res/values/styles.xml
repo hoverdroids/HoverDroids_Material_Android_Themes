@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brown App Theme -->
+    <style name="BaseTheme.Brown" parent="AppTheme">
+        <!-- Attributes for all APIs -->
+        <item name="colorPrimary">@color/material_brown_500</item>
+        <item name="colorPrimaryDark">@color/material_brown_700</item>
+        <item name="colorAccent">@color/material_brown_700</item>
+        <item name="dialogTheme">@style/AppTheme.Dialog.Brown</item>
+        <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert.Brown</item>
+    </style>
+
+    <style name="AppTheme.Brown" parent="BaseTheme.Brown">
+        <!-- API specific attributes 14+ -->
+        <item name="selectableRectDrawableColored">@drawable/state_list_selectable_rect_brown</item>
+        <item name="selectableRoundedRectDrawableColored">@drawable/state_list_selectable_rounded_rect_brown</item>
+    </style>
+
+    <!-- Brown Dialog Theme -->
+    <style name="AppTheme.Dialog.Brown">
+        <item name="colorPrimary">@color/material_brown_500</item>
+        <item name="colorPrimaryDark">@color/material_brown_700</item>
+        <item name="colorAccent">@color/material_brown_700</item>
+    </style>
+
+    <!-- Brown Alert Dialog Theme -->
+    <style name="AppTheme.Dialog.Alert.Brown">
+        <item name="colorPrimary">@color/material_brown_500</item>
+        <item name="colorPrimaryDark">@color/material_brown_700</item>
+        <item name="colorAccent">@color/material_brown_700</item>
+    </style>
+
+</resources>

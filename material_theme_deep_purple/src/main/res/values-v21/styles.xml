@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Deep_Purple App Theme -->
+    <!-- API specific attributes 21+ -->
+    <style name="AppTheme.Deep_Purple" parent="BaseTheme.Deep_Purple">
+        <item name="selectableDrawableColor">@color/selector_deep_purple_pressed</item>
+
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarStyle.Deep_Purple.Horizontal</item>
+        <item name="android:progressBarStyle">@style/ProgressBarStyle.Deep_Purple</item>
+        <item name="android:indeterminateProgressStyle">@style/ProgressBarStyle.Deep_Purple</item>
+        <item name="android:seekBarStyle">@style/SeekbarStyle.Deep_Purple</item>
+        <item name="seekBarStyle">@style/SeekbarStyle.Deep_Purple</item>
+    </style>
+
+    <!-- Progress Bar Styles -->
+    <style name="ProgressBarStyle.Deep_Purple" parent="Widget.AppCompat.ProgressBar">
+
+        <item name="android:progressTint">@color/material_deep_purple_a700</item>
+        <item name="android:progressBackgroundTint">@color/material_deep_purple_a700_pct_60</item>
+
+        <item name="android:secondaryProgressTint">@color/material_deep_purple_a700_pct_60</item>
+        <item name="android:secondaryProgressTintMode">src_in</item>
+
+        <item name="android:indeterminateTintMode">src_in</item>
+        <item name="android:indeterminateTint">@color/material_deep_purple_a700</item>
+
+    </style>
+
+    <style name="ProgressBarStyle.Deep_Purple.Horizontal" parent="Widget.AppCompat.ProgressBar.Horizontal">
+
+        <item name="android:progressTint">@color/material_deep_purple_a700</item>
+        <item name="android:progressBackgroundTint">@color/material_deep_purple_a700_pct_60</item>
+
+        <item name="android:secondaryProgressTint">@color/material_deep_purple_a700_pct_60</item>
+        <item name="android:secondaryProgressTintMode">src_in</item>
+
+        <item name="android:indeterminateTintMode">src_in</item>
+        <item name="android:indeterminateTint">@color/material_deep_purple_a700</item>
+    </style>
+
+    <!-- Slider Styles -->
+    <style name="SeekbarStyle.Deep_Purple" parent="Widget.AppCompat.SeekBar">
+        <!--Uncomment the following line if you want to colorize the right side of the seekbar-->
+        <!--<item name="android:progressBackgroundTint">@color/material_deep_purple_a700_pct_30</item>-->
+        <item name="android:thumbTint">@color/material_deep_purple_a700</item>
+        <item name="android:thumbTintMode">src_in</item>
+        <item name="android:progressTint">@color/material_deep_purple_a700</item>
+    </style>
+
+</resources>

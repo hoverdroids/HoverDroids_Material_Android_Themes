@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light_Green App Theme -->
+    <style name="BaseTheme.Light_Green" parent="AppTheme">
+        <!-- Attributes for all APIs -->
+        <item name="colorPrimary">@color/material_light_green_500</item>
+        <item name="colorPrimaryDark">@color/material_light_green_700</item>
+        <item name="colorAccent">@color/material_light_green_a700</item>
+        <item name="dialogTheme">@style/AppTheme.Dialog.Light_Green</item>
+        <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert.Light_Green</item>
+    </style>
+
+    <style name="AppTheme.Light_Green" parent="BaseTheme.Light_Green">
+        <!-- API specific attributes 14+ -->
+        <item name="selectableRectDrawableColored">@drawable/state_list_selectable_rect_light_green</item>
+        <item name="selectableRoundedRectDrawableColored">@drawable/state_list_selectable_rounded_rect_light_green</item>
+    </style>
+
+    <!-- Light_Green Dialog Theme -->
+    <style name="AppTheme.Dialog.Light_Green">
+        <item name="colorPrimary">@color/material_light_green_500</item>
+        <item name="colorPrimaryDark">@color/material_light_green_700</item>
+        <item name="colorAccent">@color/material_light_green_a700</item>
+    </style>
+
+    <!-- Light_Green Alert Dialog Theme -->
+    <style name="AppTheme.Dialog.Alert.Light_Green">
+        <item name="colorPrimary">@color/material_light_green_500</item>
+        <item name="colorPrimaryDark">@color/material_light_green_700</item>
+        <item name="colorAccent">@color/material_light_green_a700</item>
+    </style>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Deep_Purple App Theme -->
+    <style name="BaseTheme.Deep_Purple" parent="AppTheme">
+        <!-- Attributes for all APIs -->
+        <item name="colorPrimary">@color/material_deep_purple_500</item>
+        <item name="colorPrimaryDark">@color/material_deep_purple_700</item>
+        <item name="colorAccent">@color/material_deep_purple_a700</item>
+        <item name="dialogTheme">@style/AppTheme.Dialog.Deep_Purple</item>
+        <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert.Deep_Purple</item>
+    </style>
+
+    <style name="AppTheme.Deep_Purple" parent="BaseTheme.Deep_Purple">
+        <!-- API specific attributes 14+ -->
+        <item name="selectableRectDrawableColored">@drawable/state_list_selectable_rect_deep_purple</item>
+        <item name="selectableRoundedRectDrawableColored">@drawable/state_list_selectable_rounded_rect_deep_purple</item>
+    </style>
+
+    <!-- Deep_Purple Dialog Theme -->
+    <style name="AppTheme.Dialog.Deep_Purple">
+        <item name="colorPrimary">@color/material_deep_purple_500</item>
+        <item name="colorPrimaryDark">@color/material_deep_purple_700</item>
+        <item name="colorAccent">@color/material_deep_purple_a700</item>
+    </style>
+
+    <!-- Deep_Purple Alert Dialog Theme -->
+    <style name="AppTheme.Dialog.Alert.Deep_Purple">
+        <item name="colorPrimary">@color/material_deep_purple_500</item>
+        <item name="colorPrimaryDark">@color/material_deep_purple_700</item>
+        <item name="colorAccent">@color/material_deep_purple_a700</item>
+    </style>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Indigo App Theme -->
+    <style name="BaseTheme.Indigo" parent="AppTheme">
+        <!-- Attributes for all APIs -->
+        <item name="colorPrimary">@color/material_indigo_500</item>
+        <item name="colorPrimaryDark">@color/material_indigo_700</item>
+        <item name="colorAccent">@color/material_indigo_a700</item>
+        <item name="dialogTheme">@style/AppTheme.Dialog.Indigo</item>
+        <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert.Indigo</item>
+    </style>
+
+    <style name="AppTheme.Indigo" parent="BaseTheme.Indigo">
+        <!-- API specific attributes 14+ -->
+        <item name="selectableRectDrawableColored">@drawable/state_list_selectable_rect_indigo</item>
+        <item name="selectableRoundedRectDrawableColored">@drawable/state_list_selectable_rounded_rect_indigo</item>
+    </style>
+
+    <!-- Indigo Dialog Theme -->
+    <style name="AppTheme.Dialog.Indigo">
+        <item name="colorPrimary">@color/material_indigo_500</item>
+        <item name="colorPrimaryDark">@color/material_indigo_700</item>
+        <item name="colorAccent">@color/material_indigo_a700</item>
+    </style>
+
+    <!-- Indigo Alert Dialog Theme -->
+    <style name="AppTheme.Dialog.Alert.Indigo">
+        <item name="colorPrimary">@color/material_indigo_500</item>
+        <item name="colorPrimaryDark">@color/material_indigo_700</item>
+        <item name="colorAccent">@color/material_indigo_a700</item>
+    </style>
+
+</resources>

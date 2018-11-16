@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BlueGray App Theme -->
+    <style name="BaseTheme.BlueGray" parent="AppTheme">
+        <!-- Attributes for all APIs -->
+        <item name="colorPrimary">@color/material_bluegray_500</item>
+        <item name="colorPrimaryDark">@color/material_bluegray_700</item>
+        <item name="colorAccent">@color/material_bluegray_700</item>
+        <item name="dialogTheme">@style/AppTheme.Dialog.BlueGray</item>
+        <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert.BlueGray</item>
+    </style>
+
+    <style name="AppTheme.BlueGray" parent="BaseTheme.BlueGray">
+        <!-- API specific attributes 14+ -->
+        <item name="selectableRectDrawableColored">@drawable/state_list_selectable_rect_bluegray</item>
+        <item name="selectableRoundedRectDrawableColored">@drawable/state_list_selectable_rounded_rect_bluegray</item>
+    </style>
+
+    <!-- BlueGray Dialog Theme -->
+    <style name="AppTheme.Dialog.BlueGray">
+        <item name="colorPrimary">@color/material_bluegray_500</item>
+        <item name="colorPrimaryDark">@color/material_bluegray_700</item>
+        <item name="colorAccent">@color/material_bluegray_700</item>
+    </style>
+
+    <!-- BlueGray Alert Dialog Theme -->
+    <style name="AppTheme.Dialog.Alert.BlueGray">
+        <item name="colorPrimary">@color/material_bluegray_500</item>
+        <item name="colorPrimaryDark">@color/material_bluegray_700</item>
+        <item name="colorAccent">@color/material_bluegray_700</item>
+    </style>
+
+</resources>
